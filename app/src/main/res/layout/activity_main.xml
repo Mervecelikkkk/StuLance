@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/etStuLoginName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/StuLoginName"
+        android:autofillHints="Username"
+        android:textColorHint="@color/colorIkon"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorIkon"
+        app:layout_constraintBottom_toTopOf="@+id/etStuPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etStuPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:autofillHints="@string/Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorIkon"
+        android:textColorHint="@color/colorIkon"
+        app:layout_constraintBottom_toTopOf="@+id/btnStuLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnStuLogin"
+        android:layout_width="92dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/start_page"
+        android:onClick="@string/ButtonLogin"
+        android:text="@string/btnStuLogin"
+        android:textColor="@color/colorIkon"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreateAcc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCreateAcc"
+        android:layout_width="214dp"
+        android:layout_height="48dp"
+        android:background="@drawable/start_page"
+        android:clickable="@bool/Clickable"
+        android:onClick="@string/create"
+        android:text="@string/click"
+        android:textColor="@color/colorIkon"
+        android:textColorHint="@color/colorIkon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+</androidx.constraintlayout.widget.ConstraintLayout>

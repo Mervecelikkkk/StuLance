@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Created-By: 1.4.2_19-b04 (Sun Microsystems Inc.)
+Implementation-Title: jTDS JDBC Driver
+Implementation-Version: 1.2.5
+Implementation-URL: http://jtds.sourceforge.net
+Specification-Title: JDBC
+Specification-Version: 3.0
+Main-Class: net.sourceforge.jtds.jdbc.Driver
+Class-Path: jcifs.jar
+

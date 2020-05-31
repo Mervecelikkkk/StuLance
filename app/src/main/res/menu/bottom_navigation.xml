@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_myjobs"
+        android:icon="@drawable/ic_job"
+        android:title="My Jobs"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/nav_browse"
+        android:checkable="false"
+        android:icon="@drawable/ic_search"
+        android:title="Browse"
+         />
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add"
+        android:title="Post Job" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ic_message"
+        android:title="Messages" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+</menu>
